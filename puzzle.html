@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=760, user-scalable=0">
+    <link rel="stylesheet" href="Css/puzzle.css">
+
+</head>
+
+<body onload="setLanguage()">
+
+<a href="home.html" type="button">
+    <img src="Pictures/arrow_back.png" id="backButton">
+</a>
+<img src="Pictures/question.png" class="soundButton" onclick="dogSound()">
+<img src="Pictures/sound_on.png" class="soundButton" id="soundPuzzle" onclick="audioPuzzle()">
+
+<audio id="audioDog" preload="auto">
+    <source src="Sounds/woof.mp3" type="audio/mp3">
+</audio>
+
+<div class="center header">Puzzle Game</div>
+<div class="center underHeader"id="instructionText">Click on any two puzzle pieces to swap their places </div>
+
+<audio id="background_music2" autoplay controls loop>
+    <source src="Sounds/jazz.mp3" type="audio/mp3">
+</audio>
+
+
+<div style="margin:0 auto; width:640px; height:480px; border: 4px solid mediumorchid;">
+
+    <img id="sorry" src="Pictures/sorry.jpg" style="display:none">
+
+    <canvas id="myCanvas" width="640" height="480" onclick="onCanvasClick(event)">
+    </canvas>
+
+</div>
+
+<script src="puzzle.js"></script>
+<script src="ani_button.js"></script>
+<script src="i18n.js"></script>
+</body>
+</html>
+
