@@ -28,16 +28,15 @@ function playButton() {
 
 
 function audioPuzzle() {
-    console.log("Button Clicked!");
-    var song = document.getElementById("background_music2");
-    if (song.pause == true) {
-        console.log(1);
-        song.play();
-        document.getElementById("soundPuzzle").src = "Pictures/sound_on.png";
+
+    var sound1 = document.getElementById("background_music2");
+    var soundButton2 = document.getElementById("soundPuzzle");
+    if (!sound1.muted) {
+        sound1.muted = true;
+        soundButton2.src = "Pictures/sound_off.png";
     } else {
-        console.log(2);
-        song.pause();
-        document.getElementById("soundPuzzle").src = "Pictures/sound_off.png";
+        sound1.muted = false;
+        soundButton2.src = "Pictures/sound_on.png";
     }
 }
 
