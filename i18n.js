@@ -1,11 +1,20 @@
 
  //current language. Default is english
+if(localStorage.currentLang == null)
+{
+localStorage.setItem("currentLang","en");
+}
+
 var json;
 
 //String lookup tables in json format. Seperate key/value pairs with a comma
 var english = '{"startText": "Start!","instructionText": "Click on any two puzzle pieces to swap their places"}'
 
 var swedish = '{"startText": "Börja!","instructionText": "Clicka på två puzzelbitar för att få de att byta plats med varandra"}'
+
+window.onload = function(){
+    setLanguage();
+};
 
 function changeLanguage() {
     var lang = localStorage.currentLang;

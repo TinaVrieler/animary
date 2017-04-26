@@ -1,4 +1,4 @@
-window.onload = onReady;
+//window.onload = onReady;
 
 var can;
 var ctx;
