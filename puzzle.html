@@ -7,27 +7,34 @@
 
 </head>
 
-<body onload="setLanguage()">
+<body>
 
-<a href="home.html" type="button">
-    <img src="Pictures/arrow_back.png" id="backButton">
-</a>
-<img src="Pictures/question.png" class="soundButton" onclick="dogSound()">
-<img src="Pictures/sound_on.png" class="soundButton" id="soundPuzzle" onclick="audioPuzzle()">
+<div id="leftHeader">
+    <a href="home.html" type="button">
+        <img src="Pictures/arrow_back.png" id="backButton">
+    </a>
+</div>
+
+<div id="rightHeader">
+    <img src="Pictures/question2.png" class="soundButton">
+    <img src="Pictures/hint.png" class="soundButton" onclick="dogSound()">
+    <img src="Pictures/sound_on.png" class="soundButton" id="soundPuzzle" onclick="audioPuzzle()">
+</div>
+
 
 <audio id="audioDog" preload="auto">
     <source src="Sounds/woof.mp3" type="audio/mp3">
 </audio>
 
 <div class="center header">Puzzle Game</div>
-<div class="center underHeader"id="instructionText">Click on any two puzzle pieces to swap their places </div>
+<div class="center underHeader" id="instructionText">Click on any two puzzle pieces to swap their places </div>
 
 <audio id="background_music2" autoplay controls loop>
     <source src="Sounds/jazz.mp3" type="audio/mp3">
 </audio>
 
 
-<div style="margin:0 auto; width:640px; height:480px; border: 4px solid mediumorchid;">
+<div style="margin:0 auto; width:640px; height:480px; border: 4px solid #C5376D;">
 
     <img id="sorry" src="Pictures/sorry.jpg" style="display:none">
 
@@ -36,9 +43,29 @@
 
 </div>
 
+<div id="buttonContainer">
+    <a href="#" id="button1" type="button" onclick="playButton()">
+        <span id="Dog">Dog</span>
+    </a>
+
+    <a href="#" id="button2" type="button" onclick="playButton()">
+        <span id="Elephant">Elephant</span>
+    </a>
+
+    <a href="#" id="button3" type="button" onclick="playButton()">
+        <span id="Cat">Cat</span>
+    </a>
+</div>
+
+<div>
+
+</div>
+<audio id="audio1" preload="auto">
+    <source src="Sounds/button_start.mp3" type="audio/mp3">
+</audio>
+
 <script src="puzzle.js"></script>
 <script src="ani_button.js"></script>
-<script src="i18n.js"></script>
 </body>
 </html>
 

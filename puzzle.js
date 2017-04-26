@@ -57,10 +57,8 @@ function onImage1Load()
 
     scrambleArray(piecesArray, 30);
     drawImage();
+    checkWinner();
 }
-
-
-
 
 
 function onCanvasClick(evt)
@@ -88,7 +86,7 @@ function onCanvasClick(evt)
     }
 
     if(selected1 == undefined) //If selected1 is undefined then this click is the user's first selection
-        // for this round so we assign the clicked puzzle piece to selected
+    // for this round so we assign the clicked puzzle piece to selected
     {
         selected1 = targetRect;
     }
@@ -157,10 +155,12 @@ function checkWinner()
     if(match)
     {
         console.log('complete'); //to do: animation here to show the user that the game is complete
+        document.getElementById("buttonContainer").style.display = "inherit";
     }
     else
     {
         console.log('not complete');
+        document.getElementById("buttonContainer").style.display = "none";
     }
 }
 
