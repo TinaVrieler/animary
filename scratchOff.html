@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=760, user-scalable=0">
     <link rel="stylesheet" href="Css/puzzle.css">
+    <link rel="stylesheet" href="Css/scratch.css">
 
 </head>
 
-<body>
+<body onload="create();">
 
 <div id="leftHeader">
     <a href="home.html" type="button">
@@ -26,20 +27,17 @@
     <source src="Sounds/woof.mp3" type="audio/mp3">
 </audio>
 
-<div class="center header">Puzzle Game</div>
-<h2 class="center underHeader" id="instructionText"></h2>
+<div class="center header">Scratch off Game</div>
+<div class="center underHeader" id="instructionText">Click and move the mouse over to reveal a hidden image</div>
 
 <audio id="background_music2" autoplay controls loop>
     <source src="Sounds/jazz.mp3" type="audio/mp3">
 </audio>
 
 
-<div style="margin:0 auto; width:640px; height:480px; border: 4px solid #C5376D;">
+<div id="revealCanvas" style="margin:0 auto; width:640px; height:480px; border: 4px solid #C5376D;">
 
-    <img id="sorry" src="Pictures/sorry.jpg" style="display:none">
 
-    <canvas id="myCanvas" width="640" height="480" onclick="onCanvasClick(event)">
-    </canvas>
 
 </div>
 
@@ -64,7 +62,7 @@
     <source src="Sounds/button_start.mp3" type="audio/mp3">
 </audio>
 
-<script src="puzzle.js"></script>
+<script src="scratchOff.js"></script>
 <script src="ani_button.js"></script>
 </body>
 </html>
