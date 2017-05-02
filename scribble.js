@@ -1,3 +1,7 @@
+$(document).ready(function () {
+    draw();
+});
+
 var amount = 1;
 var canvas;
 var ctx;

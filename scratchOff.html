@@ -1,14 +1,15 @@
-<!doctype html>
-<html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=760, user-scalable=0">
     <link rel="stylesheet" href="Css/puzzle.css">
     <link rel="stylesheet" href="Css/scratch.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 </head>
 
-<body onload="create();">
+<body>
 
 <div id="leftHeader">
     <a href="home.html" type="button">
@@ -18,40 +19,37 @@
 
 <div id="rightHeader">
     <img src="Pictures/question2.png" class="soundButton">
-    <img src="Pictures/hint.png" class="soundButton" onclick="dogSound()">
-    <img src="Pictures/sound_on.png" class="soundButton" id="soundPuzzle" onclick="audioPuzzle()">
+    <img src="Pictures/hint.png" class="soundButton" onclick="horseSound()">
+    <img src="Pictures/sound_on.png" class="soundButton" id="sound" onclick="audioGame()">
 </div>
 
 
-<audio id="audioDog" preload="auto">
-    <source src="Sounds/woof.mp3" type="audio/mp3">
+<audio id="audioHorse" preload="auto">
+    <source src="Sounds/Horse-neighing.mp3" type="audio/mp3">
 </audio>
 
-<div class="center header">Scratch off Game</div>
-<div class="center underHeader" id="instructionText">Click and move the mouse over to reveal a hidden image</div>
+<div class="center header" i18n="scratchHeader"></div>
+<div class="center underHeader" i18n="scratchHelp"></div>
 
-<audio id="background_music2" autoplay controls loop>
+<audio id="background_music2" class="background" autoplay controls loop>
     <source src="Sounds/jazz.mp3" type="audio/mp3">
 </audio>
 
 
 <div id="revealCanvas" style="margin:0 auto; width:640px; height:480px; border: 4px solid #C5376D;">
-
-
-
 </div>
 
 <div id="buttonContainer">
-    <a href="#" id="button1" type="button" onclick="playButton()">
-        <span id="Dog">Dog</span>
+    <a href="#" id="button1" type="button" onclick="wrongButton()">
+        <span i18n="donkey">Donkey</span>
     </a>
 
-    <a href="#" id="button2" type="button" onclick="playButton()">
-        <span id="Elephant">Elephant</span>
+    <a href="#" id="button2" type="button" onclick="wrongButton()">
+        <span i18n="cat">Cat</span>
     </a>
 
-    <a href="#" id="button3" type="button" onclick="playButton()">
-        <span id="Cat">Cat</span>
+    <a href="scribble.html" id="button3" type="button" onclick="playButton()">
+        <span i18n="horse">Horse</span>
     </a>
 </div>
 
@@ -62,8 +60,15 @@
     <source src="Sounds/button_start.mp3" type="audio/mp3">
 </audio>
 
+<audio id="audioWrong" preload="auto">
+    <source src="Sounds/buzzer.mp3" type="audio/mp3">
+</audio>
+
 <script src="scratchOff.js"></script>
 <script src="ani_button.js"></script>
+<script src="i18n.js"></script>
+
+
 </body>
 </html>
 

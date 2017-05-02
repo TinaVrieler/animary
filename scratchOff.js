@@ -1,3 +1,6 @@
+$(document).ready(function () {
+    create();
+});
 
 function init(container, width, height, fillColor) {
             var canvasRev = createCanvas(container, width, height);
