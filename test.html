@@ -10,15 +10,9 @@
 </head>
 <body>
 
+<button id="changeLanguage">
 
-<canvas id="myCanvas" width="auto" height="auto"></canvas>
-
-<img id="exit_button" src="Pictures/exit.png">
-
-<button id="changeLanguage" onclick="changeLanguage()">
-    <img id="flag" src="Pictures/swedish.svg">
 </button>
-
 <span id="audioControl">
         <a href="#">
         <img class="soundButton" id="sound" src="Pictures/sound_on.png" onclick="audioControl()">
@@ -27,7 +21,7 @@
     </span>
 
 
-<audio id="background_music" class="background" autoplay controls loop>
+<audio id="background_music" autoplay controls loop>
     <source src="Sounds/background_music.mp3" type="audio/mp3">
 </audio>
 
@@ -36,7 +30,7 @@
 
 
 <a href="puzzle.html" id="button" type="button" onclick="playButton()">
-    <span id="startText" i18n="startText"></span>
+    <span id="startText"></span>
 </a>
 
 
@@ -46,7 +40,7 @@
 </audio>
 
 <script src="ani_button.js"></script>
-<script src="balloons.js"></script>
+<!--<script src="balloons.js"></script>-->
 <script src="i18n.js"></script>
 
 

@@ -1,4 +1,7 @@
-window.onload = onReady;
+//window.onload = onReady;
+$(document).ready(function () {
+    onReady();
+});
 
 var can;
 var ctx;

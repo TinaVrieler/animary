@@ -1,0 +1,9 @@
+#revealCanvas{
+    background-image: url("http://www.impelledtoact.com/wp-content/uploads/2012/04/horse.jpg");
+    background-size: 640px 480px;
+    background-repeat: no-repeat;
+}
+
+#scribbleCanvas{
+   margin: 0 auto;
+}
