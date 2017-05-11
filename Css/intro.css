@@ -135,3 +135,8 @@ body {
     -o-transform: translate(0, 4px);
     transform: translate(0, 4px);
 }
+
+
+#CanvasDiv{
+    margin: 20% 0 -0 0;
+}
