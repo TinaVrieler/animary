@@ -51,6 +51,10 @@ body{
     text-align: center;
 }
 
+#buttonContainer2{
+    text-align: center;
+}
+
 #button1 {
     display: inline-block;
     margin-top: 5px;

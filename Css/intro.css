@@ -18,6 +18,10 @@ body{
     display: none;
 }
 
+/*div {
+    border: red 2pt solid;
+}
+*/
 
 .soundButton{
     width: 5%;
@@ -138,5 +142,5 @@ body {
 
 
 #CanvasDiv{
-    margin: 20% 0 -0 0;
+    margin: 10% 0 -0 0;
 }

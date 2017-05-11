@@ -1,13 +1,10 @@
-/**
- * Created by tinavrieler on 2017-05-04.
- */
 
 var ctx = document.querySelector("canvas").getContext("2d"),
-    dashLen = 220, dashOffset = dashLen, speed = 5,
+    dashLen = 220, dashOffset = dashLen, speed = 10,
     txt = "WELL DONE!", x = 150, i = 0;
 
 ctx.font = "120px Comic Sans MS, cursive, TSCu_Comic, sans-serif";
-ctx.lineWidth = 5; ctx.lineJoin = "round"; ctx.globalAlpha = 2/3;
+ctx.lineWidth = 5; ctx.lineJoin = "round"; ctx.globalAlpha = 1;
 ctx.strokeStyle = ctx.fillStyle = "#ff0066";
 
 (function loop() {
@@ -21,8 +18,8 @@ ctx.strokeStyle = ctx.fillStyle = "#ff0066";
         ctx.fillText(txt[i], x, 90);                               // fill final letter
         dashOffset = dashLen;                                      // prep next char
         x += ctx.measureText(txt[i++]).width + ctx.lineWidth * Math.random();
-        ctx.setTransform(1, 0, 0, 1, 0, 3 * Math.random());        // random y-delta
-        ctx.rotate(Math.random() * 0.005);                         // random rotation
+        ctx.setTransform(1, 0, 0, 1, 0, 30 * Math.random());        // random y-delta
+        ctx.rotate(Math.random() * 0.05);                         // random rotation
         if (i < txt.length) requestAnimationFrame(loop);
     }
 })();
