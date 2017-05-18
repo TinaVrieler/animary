@@ -1,9 +1,18 @@
 
 var ctx = document.querySelector("canvas").getContext("2d"),
     dashLen = 220, dashOffset = dashLen, speed = 10,
-    txt = "WELL DONE!", x = 150, i = 0;
+    txt = "WELL DONE!", i = 0;
+var x;
+if($("body")[0].clientWidth == 768) {
+    x = 20;
+    console.log($("body"));
+} else {
+    x = 150;
+    console.log("2");
+    console.log($("body"));
+}
 
-ctx.font = "120px Comic Sans MS, cursive, TSCu_Comic, sans-serif";
+ctx.font = "110px Comic Sans MS, cursive, TSCu_Comic, sans-serif";
 ctx.lineWidth = 5; ctx.lineJoin = "round"; ctx.globalAlpha = 1;
 ctx.strokeStyle = ctx.fillStyle = "#ff0066";
 

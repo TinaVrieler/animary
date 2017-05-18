@@ -16,13 +16,9 @@ var english = '{"startText": "Start!","puzzleHelp": "Click on any two puzzle pie
     '"scratchHeader":"Scratch Off Game","scribbleHeader":"Scribble game","scribbleHelp":"Guess the appearing image as fast as possible!","correctText":"Correct!"}';
 
 var swedish = '{"startText": "Börja!","puzzleHelp": "Clicka på två puzzelbitar för att få de att byta plats med varandra", "puzzleHeader": "Puzzelspel","dog":"Hund",' +
-<<<<<<< HEAD
     '"cat":"Katt","pig":"Marsvin","horse":"Häst","elephant":"Elefant","donkey":"Åsna","scratchHelp":"Tryck ner och svep musknappen för att få fram bilden",' +
     '"scratchHeader":"Skrapa av!","scribbleHeader":"Gissa snabbt!","scribbleHelp":"Gissa vilket djur som dröjer sig bakom ridån så snabbt som möjligt!"}';
-=======
-    '"cat":"Katt","pig":"Gris","horse":"Häst","elephant":"Elefant","donkey":"Åsna","scratchHelp":"Tryck ner och svep musknappen för att få fram bilden",' +
-    '"scratchHeader":"Skrapa av!","scribbleHeader":"Gissa snabbt!","scribbleHelp":"Gissa vilket djur som dröjer sig bakom ridån så snabbt som möjligt!","correctText":"Correct!"}';
->>>>>>> c637664f291775a91fddd0f12e898af567c62042
+   
 
 
 function changeLanguage() {

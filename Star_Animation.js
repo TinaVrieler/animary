@@ -3,6 +3,8 @@ var starCtx = starCanvas.getContext("2d");
 var cw = starCanvas.width;
 var ch = starCanvas.height;
 var final_x = 0;
+var tabletView = $("body")[0].clientWidth == 760;
+var computerView = $("body")[0].clientWidth == 1280;
 
 // for efficiency, create the star once on an in-memory canvas
 var star = drawStar(31, 31, 5, 30, 15);
@@ -23,26 +25,42 @@ function shootStar() {
 }
 
 
-function animate(time){
+function animate(time){//345
     starCtx.drawImage(star, x, 270);
 
+
     //Controls the timing of how fast the star moves
-    if(x < 430) {
-        x += 4;
-    } 
-    else if(x >= 430 && x < 485) {
-        x += 3;
+    if(tabletView && x > 346) {
+        x += 0;
     }
-    else if(x >= 485 && x < 530) {
-        x += 2.5;
-    }
-    else if(x >= 530 && x < 565) {
+    else if(tabletView && x < 306) {
         x += 2;
     }
-    else if(x >= 565 && x < 590) {
+    else if(tabletView && x >= 306 && x < 325) {
         x += 1.5;
     }
-    else if(x >= 590 && x < 608) {
+    else if(tabletView && x >= 325 && x < 338) {
+        x += 1.3;
+    }
+    else if(tabletView && x >= 338 && x < 347) {
+        x += 1;
+    }
+    else if(computerView && x < 430) {
+        x += 4;
+    } 
+    else if(computerView && x >= 430 && x < 485) {
+        x += 3;
+    }
+    else if(computerView && x >= 485 && x < 530) {
+        x += 2.5;
+    }
+    else if(computerView && x >= 530 && x < 565) {
+        x += 2;
+    }
+    else if(computerView && x >= 565 && x < 590) {
+        x += 1.5;
+    }
+    else if(computerView && x >= 590 && x < 608) {
         x += 1;
     }
 
