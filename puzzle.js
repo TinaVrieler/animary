@@ -110,7 +110,6 @@ function onCanvasClick(evt)
 //draws a highlighted border arround the puzzle piece that the user selects
 function highlightRect(drawX, drawY)
 {
-    console.log(drawX, drawY);
     ctx.beginPath();
     ctx.moveTo(drawX, drawY);
     ctx.lineTo(drawX + blockSize, drawY);
@@ -145,6 +144,7 @@ function swapRects(r1, r2)
 //Compare puzzle pieces in piecesArray with the pieces in the correctOrder array.
 function checkWinner()
 {
+    document.getElementById("buttonContainer").style.display = "block";
     var match = true;
 
     for(var i = 0; i < piecesArray.length; i++)
@@ -219,5 +219,26 @@ function isCanvasSupported()
 {
     var elem = document.createElement('canvas');
     return (elem.getContext && elem.getContext('2d'));
+}
+
+function Tutorial() {
+    $("#cursor").addClass("cursor");
+    setTimeout(firstHightlight, 1800);
+    setTimeout(secondHightlight, 3900);
+    setTimeout(TutorialSwap, 7900);
+}
+
+function firstHightlight() {
+    highlightRect(0, 0);
+}
+
+function secondHightlight() {
+    highlightRect(480, 320);
+}
+
+function TutorialSwap() {
+    swapRects(piecesArray[0], piecesArray[11]);
+    $("#cursor").removeClass("cursor");
+    drawImage();
 }
 
