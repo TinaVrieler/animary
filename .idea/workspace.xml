@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfbd0923-1976-43de-bc87-3900594ac3da" name="Default" comment="">
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/Sounds/canvas_1.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/animation_1.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/animation_2.js" afterPath="" />
@@ -12,6 +13,12 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/i18n.js" afterPath="$PROJECT_DIR$/i18n.js" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Star_Animation.js" afterPath="$PROJECT_DIR$/Star_Animation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/puzzle.html" afterPath="$PROJECT_DIR$/puzzle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scratchOff.html" afterPath="$PROJECT_DIR$/scratchOff.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scribble.html" afterPath="$PROJECT_DIR$/scribble.html" />
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,14 +36,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
               <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <marker date="1495107423000" expanded="true" signature="1101:1170" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,8 +49,13 @@
       <file leaf-file-name="i18n.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/i18n.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="300">
               <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+=======
+            <state relative-caret-position="255">
+              <caret line="19" column="176" lean-forward="false" selection-start-line="19" selection-start-column="176" selection-end-line="19" selection-end-column="176" />
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
               <folding />
             </state>
           </provider>
@@ -54,10 +64,15 @@
       <file leaf-file-name="puzzle.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/puzzle.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="626">
               <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+=======
+            <state relative-caret-position="305">
+              <caret line="38" column="64" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="64" />
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
               <folding>
-                <marker date="1495107423000" expanded="true" signature="2579:2586" ph="..." />
+                <element signature="n#style#0;n#h1#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,6 +88,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="scribble.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scribble.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="41" column="64" lean-forward="false" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="intro.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Css/intro.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,19 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="puzzle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Css/puzzle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="scratchOff.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scratchOff.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="347">
               <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
               <folding />
@@ -109,12 +127,34 @@
             <state relative-caret-position="381">
               <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
+=======
+            <state relative-caret-position="315">
+              <caret line="39" column="64" lean-forward="false" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="puzzle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/puzzle.js">
+=======
+      <file leaf-file-name="Star_Animation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Star_Animation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="endpage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/endpage.js">
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
@@ -162,15 +202,16 @@
         <option value="$PROJECT_DIR$/ani_button.js" />
         <option value="$PROJECT_DIR$/scratchOff.js" />
         <option value="$PROJECT_DIR$/scribble.js" />
-        <option value="$PROJECT_DIR$/scratchOff.html" />
-        <option value="$PROJECT_DIR$/puzzle.html" />
         <option value="$PROJECT_DIR$/home.html" />
-        <option value="$PROJECT_DIR$/scribble.html" />
         <option value="$PROJECT_DIR$/Css/puzzle.css" />
         <option value="$PROJECT_DIR$/endpage.html" />
         <option value="$PROJECT_DIR$/Css/intro.css" />
         <option value="$PROJECT_DIR$/endpage.js" />
         <option value="$PROJECT_DIR$/i18n.js" />
+        <option value="$PROJECT_DIR$/puzzle.html" />
+        <option value="$PROJECT_DIR$/scribble.html" />
+        <option value="$PROJECT_DIR$/scratchOff.html" />
+        <option value="$PROJECT_DIR$/Star_Animation.js" />
       </list>
     </option>
   </component>
@@ -181,10 +222,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="64" />
     <option name="y" value="52" />
     <option name="width" value="1093" />
     <option name="height" value="802" />
+=======
+    <option name="x" value="-1" />
+    <option name="width" value="1368" />
+    <option name="height" value="741" />
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -201,8 +248,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,13 +307,6 @@
       <method />
     </configuration>
     <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
@@ -345,26 +385,38 @@
       <workItem from="1493898033989" duration="1421000" />
       <workItem from="1494093364669" duration="1672000" />
       <workItem from="1495106266858" duration="826000" />
+<<<<<<< HEAD
       <workItem from="1495107407336" duration="2251000" />
+=======
+      <workItem from="1495107407336" duration="549000" />
+      <workItem from="1495109078084" duration="522000" />
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="27975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="52" width="1093" height="802" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="26795000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24813433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24743778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -387,6 +439,29 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/ani_button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scratchOff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="92" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
     <entry file="file://$PROJECT_DIR$/scribble.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -422,7 +497,7 @@
         <state relative-caret-position="600">
           <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="50" />
           <folding>
-            <marker date="1495107423000" expanded="true" signature="2579:2586" ph="..." />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -431,9 +506,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1495107423000" expanded="true" signature="1101:1170" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -460,7 +533,7 @@
         <state relative-caret-position="600">
           <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="50" />
           <folding>
-            <marker date="1495107423000" expanded="true" signature="2579:2586" ph="..." />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -469,7 +542,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="92" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="92" />
+<<<<<<< HEAD
           <folding />
+=======
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
         </state>
       </provider>
     </entry>
@@ -515,9 +594,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <marker date="1495107423000" expanded="true" signature="1101:1170" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +629,7 @@
         <state relative-caret-position="465">
           <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
-            <marker date="1495107423000" expanded="true" signature="2579:2586" ph="..." />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -561,7 +638,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+<<<<<<< HEAD
           <folding />
+=======
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
         </state>
       </provider>
     </entry>
@@ -593,7 +676,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1495107423000" expanded="true" signature="2579:2586" ph="..." />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -619,7 +702,7 @@
         <state relative-caret-position="1065">
           <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
-            <marker date="1495107423000" expanded="true" signature="2579:2586" ph="..." />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -684,6 +767,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Pictures/Guess_letter.js" />
     <entry file="file://$PROJECT_DIR$/Css/scratch.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -702,6 +786,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter_three.js">
+=======
+    <entry file="file://$PROJECT_DIR$/animation_1.js">
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -709,34 +796,63 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/Css/puzzle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/stickman.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/Css/intro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/animation_2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-259">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/endpage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/animation_1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+=======
+    <entry file="file://$PROJECT_DIR$/Pictures/Guess_letter.js" />
+    <entry file="file://$PROJECT_DIR$/Css/scratch.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
           <folding />
         </state>
       </provider>
@@ -749,14 +865,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/endpage.js">
+    <entry file="file://$PROJECT_DIR$/i18n.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="19" column="176" lean-forward="false" selection-start-line="19" selection-start-column="176" selection-end-line="19" selection-end-column="176" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Sounds/canvas_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -779,22 +896,64 @@
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <marker date="1495107423000" expanded="true" signature="2579:2586" ph="..." />
+=======
+    <entry file="file://$PROJECT_DIR$/puzzle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="38" column="64" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/scratchOff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+=======
+    <entry file="file://$PROJECT_DIR$/scribble.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="41" column="64" lean-forward="false" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scratchOff.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+        <state relative-caret-position="315">
+          <caret line="39" column="64" lean-forward="false" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Star_Animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/scribble.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+>>>>>>> c637664f291775a91fddd0f12e898af567c62042
           <folding />
         </state>
       </provider>
