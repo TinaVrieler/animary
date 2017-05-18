@@ -1,3 +1,5 @@
+var canvasContext;
+
 $(document).ready(function () {
     create();
 });
@@ -5,6 +7,7 @@ $(document).ready(function () {
 function init(container, width, height, fillColor) {
             var canvasRev = createCanvas(container, width, height);
             var ctxRev = canvasRev.context;
+            canvasContext = ctxRev;
             // define a custom fillCircle method
             ctxRev.fillCircle = function(x, y, radius, fillColor) {
                 this.fillStyle = fillColor;
@@ -37,13 +40,12 @@ function init(container, width, height, fillColor) {
             canvasRev.node.onmouseup = function(e) {
                 canvasRev.isDrawing = false;
             };
-        }
+}
 
-function create()
-        {
+function create() {
             var container = document.getElementById('revealCanvas');
             init(container, 640, 480, '#ddd');;
-        }
+}
 
 function createCanvas(parent, width, height) {
             var canvas = {};
@@ -53,4 +55,41 @@ function createCanvas(parent, width, height) {
             canvas.node.height = height || 100;
             parent.appendChild(canvas.node);
             return canvas;
-        }
+}
+
+function tutorial() {
+    simulateClick();
+}
+
+function simulateClick() {
+    $("#cursor").addClass("cursor");
+
+    var evt = new MouseEvent("click", {
+        bubbles: true,
+        cancelable: true,
+        view: window,
+        target: canvasContext,
+        clientX: 4,
+        clientY: 10
+    });
+
+    canvasContext.globalCompositeOperation = 'destination-out';
+
+    simulateClickNDrag(evt, 0);
+}
+
+function simulateClickNDrag(event, offset) {
+    if(offset < 351) {
+        canvasContext.fillCircle(event.x + offset, event.y, 10, "#b8b4a9");
+        setTimeout(function() { 
+            simulateClickNDrag(event, (offset + 1)) 
+        }, 25);
+    }
+    else {
+        canvasContext.globalCompositeOperation = 'source-over';
+        canvasContext.clearTo("#ddd" || "#ddd");
+        $("#cursor").removeClass("cursor");
+    }
+}
+
+
