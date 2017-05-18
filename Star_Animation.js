@@ -14,7 +14,7 @@ function shootStar() {
     $("#starCanvas").removeClass("behind");
     $(".container").removeClass("behind");
    // $(".container").append("<h1 i18n='correctText'></h1>");
-    $("correct").show();
+    $("#correct").show();
     $(".container").before("<div id='congratsModal'></div>");
     // start the star at x=0
     x = 0;
