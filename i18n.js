@@ -13,11 +13,11 @@ var json;
 //String lookup tables in json format. Separate key/value pairs with a comma
 var english = '{"startText": "Start!","puzzleHelp": "Click on any two puzzle pieces to swap their places","puzzleHeader": "Puzzle Game","dog":"Dog",' +
     '"cat":"Cat","pig":"Guinea Pig","horse":"Horse","elephant":"Elephant","donkey":"Donkey","scratchHelp":"Press mouse and move over to reveal a hidden image",' +
-    '"scratchHeader":"Scratch Off Game","scribbleHeader":"Scribble game","scribbleHelp":"Guess the appearing image as fast as possible!"}'
+    '"scratchHeader":"Scratch Off Game","scribbleHeader":"Scribble game","scribbleHelp":"Guess the appearing image as fast as possible!"}';
 
-var swedish = '{"startText": "Börja!","puzzleHelp": "Clicka på två puzzelbitar för att få de att byta plats med varandra", "puzzleHeader": "Puzzle Game","dog":"Hund",' +
+var swedish = '{"startText": "Börja!","puzzleHelp": "Clicka på två puzzelbitar för att få de att byta plats med varandra", "puzzleHeader": "Puzzle Spel","dog":"Hund",' +
     '"cat":"Katt","pig":"Marsvin","horse":"Häst","elephant":"Elefant","donkey":"åsna","scratchHelp":"Press mouse and move over to reveal a hidden Image",' +
-    '"scratchHeader":"Scratch Off Game","scribbleHeader":"Scribble game","scribbleHelp":"Guess the appearing image as fast as possible!"}'
+    '"scratchHeader":"Scratch Off Game","scribbleHeader":"Scribble game","scribbleHelp":"Guess the appearing image as fast as possible!"}';
 
 
 function changeLanguage() {
