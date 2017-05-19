@@ -28,6 +28,18 @@
         <source src="Sounds/woof.mp3" type="audio/mp3">
     </audio>
 
+<audio class="dogVoice" preload="auto">
+    <source src="Sounds/hund_dog.mp3" type="audio/mp3">
+</audio>
+
+<audio class="elephantVoice" preload="auto">
+    <source src="Sounds/elefant_elephant.mp3" type="audio/mp3">
+</audio>
+
+<audio class="catVoice" preload="auto">
+    <source src="Sounds/katt_cat.mp3" type="audio/mp3">
+</audio>
+
     <span class="center header" id="puzzleGame" i18n="puzzleHeader"></span>
     <h2 class="center underHeader" id="instructionText" i18n="puzzleHelp"></h2>
 
@@ -53,15 +65,15 @@
 
     <div id="buttonContainer">
         <a id="button1" type="button" onclick="playButton(); shootStar(); explodeStars3();">
-            <span i18n="dog">Dog</span>
+            <span class="dogButton" i18n="dog">Dog</span>
         </a>
 
         <a href="#" id="button2" type="button" onclick="wrongButton()">
-            <span i18n="elephant">Elephant</span>
+            <span class="elephantButton" i18n="elephant">Elephant</span>
         </a>
 
         <a href="#" id="button3" type="button" onclick="wrongButton()">
-            <span i18n="cat">Cat</span>
+            <span class="catButton" i18n="cat">Cat</span>
         </a>
     </div>
 
@@ -81,6 +93,7 @@
     <script src="i18n.js"></script>
     <script src="Star_Animation.js"></script>
     <script src="Star_Explosion.js"></script>
+<script src="ButtonSounds.js"></script>
 </body>
 </html>
 

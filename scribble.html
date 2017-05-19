@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="Css/scratch.css">
     <link rel="stylesheet" href="Css/scribble.css">
     <link rel="stylesheet" href="Css/Star_Style.css">
+    <link rel="stylesheet" href="Css/ButtonVoice.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 </head>
@@ -29,6 +30,18 @@
 
     <audio id="audioCat" preload="auto">
         <source src="Sounds/meow.wav" type="audio/mp3">
+    </audio>
+
+    <audio class="dogVoice" preload="auto">
+        <source src="Sounds/hund_dog.mp3" type="audio/mp3">
+    </audio>
+
+    <audio class="pigVoice" preload="auto">
+        <source src="Sounds/marsvin_guinea_pig.mp3" type="audio/mp3">
+    </audio>
+
+    <audio class="catVoice" preload="auto">
+        <source src="Sounds/katt_cat.mp3" type="audio/mp3">
     </audio>
 
     <div id="scribbleMainHeader" class="center header" i18n="scribbleHeader"></div>
@@ -57,15 +70,15 @@
 
     <div id="buttonContainer">
         <a href="#" id="button1" type="button" onclick="wrongButton()">
-            <span id="dog">Dog</span>
+            <span class="dogButton" i18n="dog">Dog</span>
         </a>
 
         <a id="button2" type="button" onclick="playButton(); shootStar(); explodeStars1();">
-            <span id="cat">Cat</span>
+            <span class="catButton" i18n="cat">Cat</span>
         </a>
 
         <a href="#" id="button3" type="button" onclick="wrongButton()">
-            <span id="pig">Guinea Pig</span>
+            <span class="pigButton" i18n="pig">Guinea Pig</span>
         </a>
     </div>
 
@@ -83,6 +96,7 @@
     <script src="i18n.js"></script>
     <script src="Star_Animation.js"></script>
     <script src="Star_Explosion.js"></script>
+    <script src="ButtonSounds.js"></script>
 </body>
 </html>
 

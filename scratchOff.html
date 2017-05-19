@@ -40,6 +40,18 @@
         <h1 i18n="correctText" id="correct" style="display:none"></h1>
     </div>
 
+    <audio class="donkeyVoice" preload="auto">
+        <source src="Sounds/asna_donkey.mp3" type="audio/mp3">
+    </audio>
+
+    <audio class="horseVoice" preload="auto">
+        <source src="Sounds/hast_horse.mp3" type="audio/mp3">
+    </audio>
+
+    <audio class="catVoice" preload="auto">
+        <source src="Sounds/katt_cat.mp3" type="audio/mp3">
+    </audio>
+
     <div id="cursor">
     </div>
 
@@ -48,15 +60,15 @@
 
     <div id="buttonContainer">
         <a href="#" id="button1" type="button" onclick="wrongButton()">
-            <span i18n="donkey">Donkey</span>
+            <span class="donkeyButton" i18n="donkey">Donkey</span>
         </a>
 
         <a href="#" id="button2" type="button" onclick="wrongButton()">
-            <span i18n="cat">Cat</span>
+            <span class="catButton" i18n="cat">Cat</span>
         </a>
 
         <a id="button3" type="button" onclick="playButton(); shootStar(); explodeStars2();">
-            <span i18n="horse">Horse</span>
+            <span class="horseButton" i18n="horse">Horse</span>
         </a>
     </div>
 
@@ -76,6 +88,7 @@
     <script src="i18n.js"></script>
     <script src="Star_Animation.js"></script>
     <script src="Star_Explosion.js"></script>
+    <script src="ButtonSounds.js"></script>
 </body>
 </html>
 
