@@ -1,3 +1,17 @@
+#scribbleMainHeader {
+    margin: 0% 0% 0% 24%;
+    display: inline-block;
+}
+
+#scribbleCanvasParent {
+    padding: 0% 27%;
+}
+
+#buttonContainer{
+    text-align: center;
+    margin-top: 3%;
+}
+
 .cursor {
     position: absolute;
     width: 5%;
@@ -21,15 +35,15 @@
 }
 
 #addOne {
-    margin: 25% 0% 0% 27%;
+    margin: 28% 0% 0% 27%;
 }
 
 #addTwo {
-    margin: 25% 0% 0% 39%;   
+    margin: 28% 0% 0% 39%;   
 }
 
 #addThree {
-    margin: 25% 0% 0% 58%;
+    margin: 28% 0% 0% 58%;
 }
 
 @-webkit-keyframes tutorial {
@@ -78,4 +92,92 @@
     75%   {color: #d341f4; font-size: 150%}
     75%   {color: #f441af; font-size: 155%}
     100%   {color: #C5376D; font-size: 150%}
+}
+
+@media only screen and (max-width: 770px) {
+    html {
+        height: 100%;
+    }
+
+    .header{
+        font-family: "Comic Sans MS";
+        font-size: 500%;
+        color: #C5376D;
+        height: 10%;
+        width: 70%;
+    } 
+
+    #buttonContainer{
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .cursor {
+    position: absolute;
+    height: 11%;
+    width: 12.3%;
+    background-image: url(https://openclipart.org/image/800px/svg_to_png/228447/1443438515.png);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+    background-size: cover;
+    -webkit-animation-name: tutorial;
+    -webkit-animation-duration: 1s; 
+    animation-name: tutorial;
+    animation-duration: 1s;
+    animation-iteration-count: 3
+    }
+
+    #congratsModal {
+        height: 45%; 
+        width: 70%; 
+        position: fixed; 
+        background: #C5376D; 
+        border-radius: 10px; 
+        margin: -6% 14.5%; 
+        opacity: .8; 
+        border: 8px solid #c537a6;
+    }
+
+    #scribbleMainHeader {
+        margin: 1.5% 15%;
+        display: inline-block;
+    }
+
+    .underHeader {
+        font-family: 'Pacifico', Arial, sans-serif;
+        font-size: 150%;
+        color: #C5376D;
+        margin-bottom: 3%;
+    }
+
+    #scribbleCanvasParent {
+        display: inline-block;
+        margin: auto;
+        padding: 0% 12%;
+        width: 100%;
+        height: 38%;
+    }
+
+    #addOne {
+        margin: 42% 0% 0% 10%;
+    }
+
+    #addTwo {
+        margin: 42% 0% 0% 32%;   
+    }
+
+    #addThree {
+        margin: 42% 0% 0% 62%;
+    }
+
+    @-webkit-keyframes tutorial {
+        0%   {top: 16%;}
+        100%  {top: 21%;}
+    }
+
+    @keyframes tutorial {
+        0%   {top: 16%;}
+        100%  {top: 21%;}
+    }
 }

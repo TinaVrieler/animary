@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <canvas id="starCanvas" width=1180% height=650% class="behind"></canvas>
+    <canvas id="starCanvas" width="1180%" height="650%" class="behind"></canvas>
 
     <div id="leftHeader">
         <a href="home.html" type="button">
@@ -31,7 +31,7 @@
         <source src="Sounds/meow.wav" type="audio/mp3">
     </audio>
 
-    <div class="center header" i18n="scribbleHeader" style="margin-left: 21%"></div>
+    <div id="scribbleMainHeader" class="center header" i18n="scribbleHeader"></div>
     <div class="center underHeader" i18n="scribbleHelp"></div>
 
     <audio id="background_music2" class="background" autoplay controls loop>
@@ -51,8 +51,8 @@
 
     <img id="scribbleImg" height="0" width="0" src="http://www.lindermanns-tierwelt.de/wp-content/uploads/Katze-Sofakratzen%C2%A9-Vely-Fotolia.com_.jpg" style="display:none">
 
-    <div style="margin:0 auto;">
-        <canvas id="scribbleCanvas" width="580" height="375" style="border: 4px solid #C5376D; margin-left: 27%"></canvas>
+    <div id="scribbleCanvasParent" style="margin:0 auto;">
+        <canvas id="scribbleCanvas" width="580" height="375" style="border: 4px solid #C5376D;"></canvas>
     </div>
 
     <div id="buttonContainer">

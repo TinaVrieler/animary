@@ -36,3 +36,71 @@
     100%  {left: 48%; top: 15.5%;}
 }
 
+@media only screen and (max-width: 770px) {
+    html {
+        height: 100%;
+    }
+
+    .header{
+        font-family: "Comic Sans MS";
+        font-size: 500%;
+        color: #C5376D;
+        height: 10%;
+        width: 100%;
+    } 
+
+    #buttonContainer{
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .cursor {
+        position: absolute;
+        height: 8%;
+        width: 9.3%;
+        background-image: url(https://openclipart.org/image/800px/svg_to_png/228447/1443438515.png);
+        -ms-transform: rotate(130deg);
+        -webkit-transform: rotate(130deg); 
+        transform: rotate(130deg);
+        background-size: cover;
+        -webkit-animation-name: tutorial;
+        -webkit-animation-timing-function: linear; 
+        -webkit-animation-duration: 9.3s; 
+        animation-name: tutorial;
+        animation-timing-function: linear;
+        animation-duration: 9.3s;
+    }
+
+    @-webkit-keyframes tutorial {
+        0%   {left: 21%; top: 18%;}
+        100%  {left: 49%; top: 18%;}
+    }
+
+    @keyframes tutorial {
+        0%   {left: -1%; top: 15%;}
+        100%  {left: 45%; top: 15%;}
+    }
+
+    #congratsModal {
+        height: 45%; 
+        width: 70%; 
+        position: fixed; 
+        background: #C5376D; 
+        border-radius: 10px; 
+        margin: -6% 14.5%; 
+        opacity: .8; 
+        border: 8px solid #c537a6;
+    }
+
+    #scribbleMainHeader {
+        margin: 1.5% 15%;
+        display: inline-block;
+    }
+
+    .underHeader {
+        font-family: 'Pacifico', Arial, sans-serif;
+        font-size: 150%;
+        color: #C5376D;
+        margin-bottom: 3%;
+    }
+}

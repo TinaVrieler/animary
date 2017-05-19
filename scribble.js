@@ -35,5 +35,5 @@ function pauseDraw() {
 
     setTimeout(function() {
         drawFunct = setInterval(drawMore, 90)
-    }, 4000);
+    }, 3000);
 }
