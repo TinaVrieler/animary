@@ -3,8 +3,8 @@ var starCtx = starCanvas.getContext("2d");
 var cw = starCanvas.width;
 var ch = starCanvas.height;
 var final_x = 0;
-var tabletView = $("body")[0].clientWidth == 760;
-var computerView = $("body")[0].clientWidth == 1280;
+var tabletView = ($("body")[0].clientWidth > 735) && ($("body")[0].clientWidth < 795);
+var computerView = ($("body")[0].clientWidth > 1145) && ($("body")[0].clientWidth < 1315);
 
 // for efficiency, create the star once on an in-memory canvas
 var star = drawStar(31, 31, 5, 30, 15);
