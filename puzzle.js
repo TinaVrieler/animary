@@ -157,7 +157,7 @@ function checkWinner()
 
     if(match)
     {
-        console.log('complete'); //to do: animation here to show the user that the game is complete
+        console.log('complete');
         document.getElementById("buttonContainer").style.display = "inherit";
     }
     else

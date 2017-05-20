@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfbd0923-1976-43de-bc87-3900594ac3da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ButtonSounds.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/puzzle.html" afterPath="$PROJECT_DIR$/puzzle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scratchOff.html" afterPath="$PROJECT_DIR$/scratchOff.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scribble.html" afterPath="$PROJECT_DIR$/scribble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/i18n.js" afterPath="$PROJECT_DIR$/i18n.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/puzzle.js" afterPath="$PROJECT_DIR$/puzzle.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,7 +24,7 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="452">
               <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
               <folding />
             </state>
@@ -50,8 +46,8 @@
       <file leaf-file-name="i18n.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/i18n.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="154" lean-forward="false" selection-start-line="19" selection-start-column="154" selection-end-line="19" selection-end-column="154" />
+            <state relative-caret-position="827">
+              <caret line="76" column="45" lean-forward="true" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -60,11 +56,31 @@
       <file leaf-file-name="puzzle.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/puzzle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
+            <state relative-caret-position="740">
               <caret line="95" column="39" lean-forward="false" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Star_Explosion.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Star_Explosion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1095">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="puzzle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puzzle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="159" column="32" lean-forward="false" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,9 +90,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
               <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-              <folding>
-                <marker date="1495219655804" expanded="true" signature="463:740" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,17 +98,17 @@
       <file leaf-file-name="scribble.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scribble.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="98" column="4" lean-forward="true" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="43" />
+            <state relative-caret-position="482">
+              <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scratchOff.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scratchOff.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scratchOff.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
+            <state relative-caret-position="482">
               <caret line="90" column="43" lean-forward="false" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -103,31 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Star_Animation.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Star_Animation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Star_Animation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="-259">
               <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="endpage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/endpage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scratch.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Css/scratch.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/puzzle.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/ani_button.js" />
         <option value="$PROJECT_DIR$/scratchOff.js" />
@@ -167,7 +160,6 @@
         <option value="$PROJECT_DIR$/endpage.html" />
         <option value="$PROJECT_DIR$/Css/intro.css" />
         <option value="$PROJECT_DIR$/endpage.js" />
-        <option value="$PROJECT_DIR$/i18n.js" />
         <option value="$PROJECT_DIR$/Star_Animation.js" />
         <option value="$PROJECT_DIR$/Css/ButtonVoice.css" />
         <option value="$PROJECT_DIR$/scribble.html" />
@@ -175,6 +167,8 @@
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/puzzle.html" />
         <option value="$PROJECT_DIR$/scratchOff.html" />
+        <option value="$PROJECT_DIR$/i18n.js" />
+        <option value="$PROJECT_DIR$/puzzle.js" />
       </list>
     </option>
   </component>
@@ -185,9 +179,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="width" value="1368" />
-    <option name="height" value="741" />
+    <option name="x" value="102" />
+    <option name="y" value="42" />
+    <option name="width" value="1093" />
+    <option name="height" value="802" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -204,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,6 +228,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,32 +340,32 @@
       <workItem from="1495107407336" duration="549000" />
       <workItem from="1495109078084" duration="2292000" />
       <workItem from="1495219956787" duration="2029000" />
+      <workItem from="1495270606024" duration="853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30594000" />
+    <option name="totallyTimeSpent" value="31447000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
-    <editor active="true" />
+    <frame x="102" y="42" width="1093" height="802" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24816984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24813433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,13 +381,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scribble.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Css/puzzle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -629,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/puzzle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ani_button.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -679,41 +660,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/endpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <marker date="1495219655804" expanded="true" signature="463:740" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Star_Animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sounds/canvas_1.html" />
-    <entry file="file://$PROJECT_DIR$/Css/ButtonVoice.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i18n.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="154" lean-forward="false" selection-start-line="19" selection-start-column="154" selection-end-line="19" selection-end-column="154" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Css/ButtonVoice.css" />
     <entry file="file://$PROJECT_DIR$/ButtonSounds.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -724,25 +672,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scratchOff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="90" column="43" lean-forward="false" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scribble.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="98" column="4" lean-forward="true" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="43" />
+        <state relative-caret-position="482">
+          <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="452">
           <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i18n.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="827">
+          <caret line="76" column="45" lean-forward="true" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzzle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="159" column="32" lean-forward="false" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/puzzle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
+        <state relative-caret-position="740">
           <caret line="95" column="39" lean-forward="false" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -750,13 +732,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scratchOff.html">
+    <entry file="file://$PROJECT_DIR$/Star_Explosion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="90" column="43" lean-forward="false" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1095">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Star_Animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-259">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

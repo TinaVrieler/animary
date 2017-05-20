@@ -67,7 +67,7 @@ function setLanguage() {
         //document.getElementById("flag").src = "Pictures/swedish.svg";
     }
 
-//gets every element containg text via its ID and sets it with getting the string by key from whichever json table was parsed before
+//gets every element containing text via its ID and sets it with getting the string by key from whichever json table was parsed before
 //be careful with the property you have to set. It might be innerHTML or value or something else
     //document.getElementById("startText").innerHTML = json["startText"];
     $('*').each(function() {
