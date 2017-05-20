@@ -8,7 +8,6 @@ function init(container, width, height, fillColor) {
             var canvasRev = createCanvas(container, width, height);
             var ctxRev = canvasRev.context;
             canvasContext = ctxRev;
-            // define a custom fillCircle method
             ctxRev.fillCircle = function(x, y, radius, fillColor) {
                 this.fillStyle = fillColor;
                 this.beginPath();
@@ -29,7 +28,7 @@ function init(container, width, height, fillColor) {
                 }
                 var x = e.pageX - this.offsetLeft;
                 var y = e.pageY - this.offsetTop;
-                var radius = 10; // or whatever
+                var radius = 25;
                 var fillColor = '#b8b4a9';
                 ctxRev.globalCompositeOperation = 'destination-out';
                 ctxRev.fillCircle(x, y, radius, fillColor);
@@ -80,7 +79,7 @@ function simulateClick() {
 
 function simulateClickNDrag(event, offset) {
     if(offset < 351) {
-        canvasContext.fillCircle(event.x + offset, event.y, 10, "#b8b4a9");
+        canvasContext.fillCircle(event.x + offset, event.y, 25, "#b8b4a9");
         setTimeout(function() { 
             simulateClickNDrag(event, (offset + 1)) 
         }, 25);
