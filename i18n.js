@@ -13,11 +13,13 @@ var json;
 //String lookup tables in json format. Separate key/value pairs with a comma
 var english = '{"startText": "Start!","puzzleHelp": "Click on any two puzzle pieces to swap their places","puzzleHeader": "Puzzle Game","dog":"Dog",' +
     '"cat":"Cat","pig":"Guinea Pig","horse":"Horse","elephant":"Elephant","donkey":"Donkey","scratchHelp":"Press mouse and move over to reveal a hidden image",' +
-    '"scratchHeader":"Scratch Off Game","scribbleHeader":"Scribble game","scribbleHelp":"Guess the appearing image as fast as possible!","correctText":"Correct!"}';
+    '"scratchHeader":"Scratch Off Game","scribbleHeader":"Scribble game","scribbleHelp":"Guess the appearing image as fast as possible!","correctText":"Correct!","quit": "quit"'+
+    '"restart":"Restart"}';
 
 var swedish = '{"startText": "Börja!","puzzleHelp": "Clicka på två puzzelbitar för att få de att byta plats med varandra", "puzzleHeader": "Puzzelspel","dog":"Hund",' +
     '"cat":"Katt","pig":"Marsvin","horse":"Häst","elephant":"Elefant","donkey":"Åsna","scratchHelp":"Tryck ner och svep musknappen för att få fram bilden",' +
-    '"scratchHeader":"Skrapa av!","scribbleHeader":"Gissa snabbt!","scribbleHelp":"Gissa vilket djur som dröjer sig bakom ridån så snabbt som möjligt!"}';
+    '"scratchHeader":"Skrapa av!","scribbleHeader":"Gissa snabbt!","scribbleHelp":"Gissa vilket djur som dröjer sig bakom ridån så snabbt som möjligt!","quit":"Avsluta"' +
+    '"restart":"Börja om"}';
    
 
 
