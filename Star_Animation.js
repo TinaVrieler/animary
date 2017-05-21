@@ -1,3 +1,4 @@
+
 var starCanvas = document.getElementById("starCanvas");
 var starCtx = starCanvas.getContext("2d");
 var cw = starCanvas.width;
@@ -30,7 +31,7 @@ function animate(time){//345
 
 
     //Controls the timing of how fast the star moves
-    if(tabletView && x > 346) {
+    /*if(tabletView && x > 346) {
         x += 0;
     }
     else if(tabletView && x < 306) {
@@ -62,7 +63,7 @@ function animate(time){//345
     }
     else if(computerView && x >= 590 && x < 608) {
         x += 1;
-    }
+    }*/
 
     //Controls the path of the star (Spiral )
     var y = Math.pow(((-147) * x + 89540), (16 / 32)) * Math.sin((.02) * x) + 305;
