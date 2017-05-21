@@ -4,10 +4,14 @@ $(document).ready(function () {
     create();
 });
 
+//initializes the canvas covering the photo and sets mouse events
 function init(container, width, height, fillColor) {
+//the create canvas method is called 
             var canvasRev = createCanvas(container, width, height);
             var ctxRev = canvasRev.context;
             canvasContext = ctxRev;
+
+        //define a custom fillCircle() method for the context
             ctxRev.fillCircle = function(x, y, radius, fillColor) {
                 this.fillStyle = fillColor;
                 this.beginPath();
@@ -15,13 +19,15 @@ function init(container, width, height, fillColor) {
                 this.arc(x, y, radius, 0, Math.PI * 2, false);
                 this.fill();
             };
+
+        //function to simply fill the whole canvas with a color, in this case white
             ctxRev.clearTo = function(fillColor) {
                 ctxRev.fillStyle = fillColor;
                 ctxRev.fillRect(0, 0, width, height);
             };
-            ctxRev.clearTo(fillColor || "#ddd");
+            ctxRev.clearTo("#ddd");
 
-            // bind mouse events
+            //sets mouse events for moving, clicking an releasing the mouse. We are only drawing (scratching) while the mouse is down 
             canvasRev.node.onmousemove = function(e) {
                 if (!canvasRev.isDrawing) {
                     return;
@@ -30,6 +36,9 @@ function init(container, width, height, fillColor) {
                 var y = e.pageY - this.offsetTop;
                 var radius = 25;
                 var fillColor = '#b8b4a9';
+//the globalCompositeOperation determines what happens when new shapes(the fillCircle method) are added to already existing content(fill color of the canvas)
+//desintation-out means that the "exisiting content is kept where it does not overlapp the new shape" meaning: the new shape removes the old content,
+//making it transparent
                 ctxRev.globalCompositeOperation = 'destination-out';
                 ctxRev.fillCircle(x, y, radius, fillColor);
             };
@@ -41,11 +50,14 @@ function init(container, width, height, fillColor) {
             };
 }
 
+//fetches the container, a div with the photo set as backround and call the init function on it. This will create a filld canvas
+//lying over the photo and hiding it. The size of the canvas is set here and should be the same as the photo
 function create() {
             var container = document.getElementById('revealCanvas');
             init(container, 640, 480, '#ddd');;
 }
 
+//canvas is added to the parent, here the div containing the photo, to cover it up
 function createCanvas(parent, width, height) {
             var canvas = {};
             canvas.node = document.createElement('canvas');
@@ -55,6 +67,7 @@ function createCanvas(parent, width, height) {
             parent.appendChild(canvas.node);
             return canvas;
 }
+
 
 function tutorial() {
     simulateClick();
