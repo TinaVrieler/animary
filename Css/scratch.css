@@ -32,13 +32,13 @@
 
 
 @-webkit-keyframes tutorial {
-    0%   {left: 21%; top: 18%;}
-    100%  {left: 49%; top: 18%;}
+    0%   {left: 21%; top: 17%;}
+    100%  {left: 48%; top: 17%;}
 }
 
 @keyframes tutorial {
-    0%   {left: 20%; top: 15.5%;}
-    100%  {left: 48%; top: 15.5%;}
+    0%   {left: 21%; top: 17%;}
+    100%  {left: 48%; top: 17%;}
 }
 
 @media only screen and (max-width: 770px) {
